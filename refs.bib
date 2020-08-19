@@ -1,0 +1,824 @@
+% tags (for quick search): \pretraining, \speech-xlnet-related, \data_augmentation, \specswap-related, 
+%                          \dataset, \experiment_settings, \streaming, \languagemodel
+
+
+%% tag: \data_augmentation, \specswap-related
+@inproceedings{is16/deep_cnn,
+  author    = {Tom Sercu and
+               Vaibhava Goel},
+  editor    = {Nelson Morgan},
+  title     = {Advances in Very Deep Convolutional Neural Networks for {LVCSR}},
+  booktitle = {17th Annual Conference of the International Speech Communication Association ({Interspeech} 2016)},
+  address   = {San Francisco, USA},
+  pages     = {3429--3433},
+  publisher = {{ISCA}},
+  year      = {2016},
+  url       = {https://doi.org/10.21437/Interspeech.2016-1033},
+  doi       = {10.21437/Interspeech.2016-1033},
+  urldate   = {2019-07-15},
+}
+@inproceedings{ic13/deep_rnn,
+  author    = {Alex Graves and
+               Abdel{-}rahman Mohamed and
+               Geoffrey E. Hinton},
+  editor    = {},
+  title     = {Speech recognition with deep recurrent neural networks},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2013)},
+  address   = {Vancouver, Canada},
+  pages     = {6645--6649},
+  publisher = {{IEEE}},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/ICASSP.2013.6638947},
+  doi       = {10.1109/ICASSP.2013.6638947},
+  urldate   = {2019-10-16},
+}
+@inproceedings{is19/deep_san,
+  author    = {Ngoc{-}Quan Pham and
+               Thai{-}Son Nguyen and
+               Jan Niehues and
+               Markus M{\"{u}}ller and
+               Alex Waibel},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {Very Deep Self-Attention Networks for End-to-End Speech Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {66--70},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-2702},
+  doi       = {10.21437/Interspeech.2019-2702},
+  urldate   = {2020-04-24},
+}
+@inproceedings{is19/specmask,
+  author    = {Daniel S. Park and
+               William Chan and
+               Yu Zhang and
+               Chung{-}Cheng Chiu and
+               Barret Zoph and
+               Ekin D. Cubuk and
+               Quoc V. Le},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {SpecAugment: {A} Simple Data Augmentation Method for Automatic Speech Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {2613--2617},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-2680},
+  doi       = {10.21437/Interspeech.2019-2680},
+  urldate   = {2020-04-24},
+}
+@inproceedings{ic20/on_the_fly_da,
+  author    = {Thai{-}Son Nguyen and
+               Sebastian St{\"{u}}ker and
+               Jan Niehues and
+               Alex Waibel},
+  editor    = {},
+  title     = {Improving Sequence-To-Sequence Speech Recognition Training with On-The-Fly Data Augmentation},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {7689--7693},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9054130},
+  doi       = {10.1109/ICASSP40776.2020.9054130},
+  urldate   = {2020-07-23},
+}
+@inproceedings{is14/da4lowresource,
+  author    = {Anton Ragni and
+               Kate M. Knill and
+               Shakti P. Rath and
+               Mark J. F. Gales},
+  editor    = {Haizhou Li and
+               Helen M. Meng and
+               Bin Ma and
+               Engsiong Chng and
+               Lei Xie},
+  title     = {Data augmentation for low resource languages},
+  booktitle = {15th Annual Conference of the International Speech Communication Association ({INTERSPEECH} 2014)},
+  address   = {Singapore},
+  pages     = {810--814},
+  publisher = {{ISCA}},
+  year      = {2014},
+  url       = {http://www.isca-speech.org/archive/interspeech\_2014/i14\_0810.html},
+  doi       = {},
+  urldate   = {2018-09-12},
+}
+@inproceedings{ic17/simulated_far_field_speech,
+  author    = {Tom Ko and
+               Vijayaditya Peddinti and
+               Daniel Povey and
+               Michael L. Seltzer and
+               Sanjeev Khudanpur},
+  editor    = {},
+  title     = {A study on data augmentation of reverberant speech for robust speech recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2017)},
+  address   = {New Orleans, USA},
+  pages     = {5220--5224},
+  publisher = {{IEEE}},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/ICASSP.2017.7953152},
+  doi       = {10.1109/ICASSP.2017.7953152},
+  urldate   = {2019-10-16},
+}
+@article{arxiv/deep_speech,
+  author    = {Awni Y. Hannun and
+               Carl Case and
+               Jared Casper and
+               Bryan Catanzaro and
+               Greg Diamos and
+               Erich Elsen and
+               Ryan Prenger and
+               Sanjeev Satheesh and
+               Shubho Sengupta and
+               Adam Coates and
+               Andrew Y. Ng},
+  editor    = {},
+  title     = {Deep Speech: Scaling up end-to-end speech recognition},
+  journal   = {arXiv preprint},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1412.5567},
+  doi       = {},
+  urldate   = {2018-08-13},
+}
+@inproceedings{icml13/vocal,
+  author    = {Jaitly, Navdeep and Hinton, Geoffrey E},
+  editor    = {},
+  title     = {Vocal tract length perturbation (VTLP) improves speech recognition},
+  booktitle = {30th International Conference on Machine Learning (ICML 2013)},
+  address   = {Atlanta, USA},
+  pages     = {1-5},
+  publisher = {{IEEE}},
+  year      = {2013},
+  url       = {https://sites.google.com/site/deeplearningicml2013/jaitly.pdf},
+  doi       = {},
+  urldate   = {2013-06-15},
+}
+@inproceedings{is15/speed_perturb,
+  author    = {Tom Ko and
+               Vijayaditya Peddinti and
+               Daniel Povey and
+               Sanjeev Khudanpur},
+  editor    = {},
+  title     = {Audio augmentation for speech recognition},
+  booktitle = {16th Annual Conference of the International Speech Communication Association ({INTERSPEECH} 2015)},
+  address   = {Dresden, Germany},
+  pages     = {3586--3589},
+  publisher = {{ISCA}},
+  year      = {2015},
+  url       = {http://www.isca-speech.org/archive/interspeech\_2015/i15\_3586.html},
+  doi       = {},
+  urldate   = {2016-01-04},
+}
+@inproceedings{cvpr19/autoaug,
+  author    = {Ekin D. Cubuk and
+               Barret Zoph and
+               Dandelion Mane and
+               Vijay Vasudevan and
+               Quoc V. Le},
+  editor    = {},
+  title     = {AutoAugment: Learning Augmentation Strategies From Data},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR} 2019)},
+  address   = {Long Beach, USA},
+  pages     = {113--123},
+  publisher = {Computer Vision Foundation / {IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/CVPR.2019.00020},
+  doi       = {10.1109/CVPR.2019.00020},
+  urldate   = {2020-01-20},
+}
+@article{arxiv/cutout,
+  author    = {Terrance Devries and Graham W. Taylor},
+  editor    = {},
+  title     = {Improved Regularization of Convolutional Neural Networks with Cutout},
+  journal   = {arXiv preprint},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1708.04552},
+  doi       = {},
+  urldate   = {2018-08-13},
+}
+
+
+%% tag: \dataset
+@inproceedings{cocosda17/aishell-1,
+  author    = {Hui Bu and
+               Jiayu Du and
+               Xingyu Na and
+               Bengu Wu and
+               Hao Zheng},
+  editor    = {},
+  title     = {{AISHELL-1:} An open-source Mandarin speech corpus and a speech recognition baseline},
+  booktitle = {20th Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech {I/O} Systems and Assessment ({O-COCOSDA} 2017)},
+  address   = {Seoul, South Korea},
+  pages     = {1--5},
+  publisher = {{IEEE}},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/ICSDA.2017.8384449},
+  doi       = {10.1109/ICSDA.2017.8384449},
+  urldate   = {2019-10-16},
+}
+@article{arxiv/aishell-2,
+  author    = {Jiayu Du and
+               Xingyu Na and
+               Xuechen Liu and
+               Hui Bu},
+  editor    = {},
+  title     = {{AISHELL-2:} Transforming Mandarin {ASR} Research Into Industrial Scale},
+  journal   = {arXiv preprint},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1808.10583},
+  doi       = {},
+  urldate   = {2018-09-03},
+}
+@inproceedings{ic15/librispeech,
+  author    = {Vassil Panayotov and
+               Guoguo Chen and
+               Daniel Povey and
+               Sanjeev Khudanpur},
+  editor    = {},
+  title     = {Librispeech: An {ASR} corpus based on public domain audio books},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2015)},
+  address   = {South Brisbane, Australia},
+  pages     = {5206--5210},
+  publisher = {{IEEE}},
+  year      = {2015},
+  url       = {https://doi.org/10.1109/ICASSP.2015.7178964},
+  doi       = {10.1109/ICASSP.2015.7178964},
+  urldate   = {2019-10-16},
+}
+@inproceedings{lrec12/tedlium,
+  author    = {Anthony Rousseau and
+               Paul Del{\'{e}}glise and
+               Yannick Est{\`{e}}ve},
+  editor    = {Nicoletta Calzolari and
+               Khalid Choukri and
+               Thierry Declerck and
+               Mehmet Ugur Dogan and
+               Bente Maegaard and
+               Joseph Mariani and
+               Jan Odijk and
+               Stelios Piperidis},
+  title     = {{TED-LIUM:} an Automatic Speech Recognition dedicated corpus},
+  booktitle = {Proceedings of the Eighth International Conference on Language Resources and Evaluation ({LREC} 2012)},
+  address   = {Istanbul, Turkey},
+  pages     = {125--129},
+  publisher = {{ELRA}},
+  year      = {2012},
+  url       = {http://www.lrec-conf.org/proceedings/lrec2012/summaries/698.html},
+  doi       = {},
+  urldate   = {2019-08-19},
+}
+
+
+%% tag: \experiment_settings
+@article{arxiv/dropout,
+  author    = {Geoffrey E. Hinton and
+               Nitish Srivastava and
+               Alex Krizhevsky and
+               Ilya Sutskever and
+               Ruslan Salakhutdinov},
+  editor    = {},
+  title     = {Improving neural networks by preventing co-adaptation of feature detectors},
+  journal   = {arXiv preprint},
+  year      = {2012},
+  url       = {http://arxiv.org/abs/1207.0580},
+  doi       = {},
+  urldate   = {2018-08-13},
+}
+@inproceedings{cvpr16/labelsmooth,
+  author    = {Christian Szegedy and
+               Vincent Vanhoucke and
+               Sergey Ioffe and
+               Jonathon Shlens and
+               Zbigniew Wojna},
+  editor    = {},
+  title     = {Rethinking the Inception Architecture for Computer Vision},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR} 2016)},
+  address   = {Las Vegas, USA},
+  pages     = {2818--2826},
+  publisher = {{IEEE} Computer Society},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/CVPR.2016.308},
+  doi       = {10.1109/CVPR.2016.308},
+  urldate   = {2019-10-16},
+}
+@inproceedings{is19/jointdecode,
+  author    = {Shigeki Karita and
+               Nelson Enrique Yalta Soplin and
+               Shinji Watanabe and
+               Marc Delcroix and
+               Atsunori Ogawa and
+               Tomohiro Nakatani},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {Improving Transformer-Based End-to-End Speech Recognition with Connectionist Temporal Classification and Language Model Integration},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {1408--1412},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-1938},
+  doi       = {10.21437/Interspeech.2019-1938},
+  urldate   = {2020-07-01},
+}
+@inproceedings{nips19/pytorch,
+  author    = {Adam Paszke and
+               Sam Gross and
+               Francisco Massa and
+               Adam Lerer and
+               James Bradbury and
+               Gregory Chanan and
+               Trevor Killeen and
+               Zeming Lin and
+               Natalia Gimelshein and
+               Luca Antiga and
+               Alban Desmaison and
+               Andreas K{\"{o}}pf and
+               Edward Yang and
+               Zachary DeVito and
+               Martin Raison and
+               Alykhan Tejani and
+               Sasank Chilamkurthy and
+               Benoit Steiner and
+               Lu Fang and
+               Junjie Bai and
+               Soumith Chintala},
+  editor    = {Hanna M. Wallach and
+               Hugo Larochelle and
+               Alina Beygelzimer and
+               Florence d'Alch{\'{e}}{-}Buc and
+               Emily B. Fox and
+               Roman Garnett},
+  title     = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+  booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+               on Neural Information Processing Systems ({NeurIPS} 2019)},
+  address   = {Vancouver, Canada},
+  pages     = {8024--8035},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {http://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library},
+  doi       = {},
+  urldate   = {2020-05-06},
+}
+@inproceedings{asru11/kaldi,
+  author    = {Povey Daniel and
+               Ghoshal Arnab and
+               Boulianne Gilles and
+               Burget Lukas and
+               Glembek Ondrej and
+               Goel Nagendra and
+               Hannemann Mirko and
+               Motlicek Petr and
+               Qian Yanmin and
+               Schwarz Petr and
+               Silovsky Jan and
+               Stemmer Georg and
+               Vesely Karel},
+  editor    = {},
+  title     = {The Kaldi Speech Recognition Toolkit},
+  booktitle = {IEEE 2011 Workshop on Automatic Speech Recognition and Understanding ({ASRU} 2011)},
+  address   = {Hawaii, USA},
+  pages     = {1--4},
+  publisher = {{IEEE Signal Processing Society}},
+  year      = {2011},
+  url       = {http://publications.idiap.ch/downloads/papers/2012/Povey_ASRU2011_2011.pdf},
+  doi       = {},
+  urldate   = {2012-04-07},
+}
+@inproceedings{iclr15/adam,
+  author    = {Diederik P. Kingma and
+               Jimmy Ba},
+  editor    = {Yoshua Bengio and Yann LeCun},
+  title     = {Adam: {A} Method for Stochastic Optimization},
+  booktitle = {3rd International Conference on Learning Representations (ICLR 2015)},
+  address   = {San Diego, USA},
+  pages     = {1--15},
+  publisher = {{OpenReview.net}},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1412.6980},
+  doi       = {},
+  urldate   = {2019-07-25},
+}
+@inproceedings{ic19/pytorchkaldi,
+  author    = {Mirco Ravanelli and
+               Titouan Parcollet and
+               Yoshua Bengio},
+  editor    = {},
+  title     = {The Pytorch-kaldi Speech Recognition Toolkit},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2019)},
+  address   = {Brighton, United Kingdom},
+  pages     = {6465--6469},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ICASSP.2019.8683713},
+  doi       = {10.1109/ICASSP.2019.8683713},
+  urldate   = {2019-10-16},
+}
+
+
+%% tag: \streaming
+@inproceedings{is19/rnnt,
+  author    = {Zhengkun Tian and
+               Jiangyan Yi and
+               Jianhua Tao and
+               Ye Bai and
+               Zhengqi Wen},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {Self-Attention Transducers for End-to-End Speech Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {4395--4399},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-2203},
+  doi       = {10.21437/Interspeech.2019-2203},
+  urldate   = {2020-04-24},
+}
+@inproceedings{ic20/synctransformer,
+  author    = {Zhengkun Tian and
+               Jiangyan Yi and
+               Ye Bai and
+               Jianhua Tao and
+               Shuai Zhang and
+               Zhengqi Wen},
+  editor    = {},
+  title     = {Synchronous Transformers for end-to-end Speech Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {7884--7888},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9054260},
+  doi       = {10.1109/ICASSP40776.2020.9054260},
+  urldate   = {2020-07-23},
+}
+
+
+%% tag: \languagemodel
+@inproceedings{ic19/component_fusion,
+  author    = {Changhao Shan and
+               Chao Weng and
+               Guangsen Wang and
+               Dan Su and
+               Min Luo and
+               Dong Yu and
+               Lei Xie},
+  editor    = {},
+  title     = {Component Fusion: Learning Replaceable Language Model Component for End-to-end Speech Recognition System},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2019)},
+  address   = {Brighton, United Kingdom},
+  pages     = {5631--5635},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ICASSP.2019.8682490},
+  doi       = {10.1109/ICASSP.2019.8682490},
+  urldate   = {2019-10-16},
+}
+
+
+%% tag: \pretraining, \speech-xlnet-related
+@inproceedings{naacl19/bert,
+  author    = {Jacob Devlin and
+               Ming{-}Wei Chang and
+               Kenton Lee and
+               Kristina Toutanova},
+  editor    = {Jill Burstein and Christy Doran and Thamar Solorio},
+  title     = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics ({NAACL-HLT} 2019)},
+  address   = {Minneapolis, USA},
+  pages     = {4171--4186},
+  publisher = {{ACL}},
+  year      = {2019},
+  url       = {https://doi.org/10.18653/v1/n19-1423},
+  doi       = {10.18653/v1/n19-1423},
+  urldate   = {2020-01-28},
+}
+@inproceedings{nips19/xlnet,
+  author    = {Zhilin Yang and
+               Zihang Dai and
+               Yiming Yang and
+               Jaime G. Carbonell and
+               Ruslan Salakhutdinov and
+               Quoc V. Le},
+  editor    = {Hanna M. Wallach and
+               Hugo Larochelle and
+               Alina Beygelzimer and
+               Florence d'Alch{\'{e}}{-}Buc and
+               Emily B. Fox and
+               Roman Garnett},
+  title     = {XLNet: Generalized Autoregressive Pretraining for Language Understanding},
+  booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+               on Neural Information Processing Systems ({NeurIPS} 2019)},
+  address   = {Vancouver, Canada},
+  pages     = {5754--5764},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding},
+  doi       = {},
+  urldate   = {2020-05-06},
+}
+@inproceedings{nips17/transformer,
+  author    = {Ashish Vaswani and
+               Noam Shazeer and
+               Niki Parmar and
+               Jakob Uszkoreit and
+               Llion Jones and
+               Aidan N. Gomez and
+               Lukasz Kaiser and
+               Illia Polosukhin},
+  editor    = {Isabelle Guyon and
+               Ulrike von Luxburg and
+               Samy Bengio and
+               Hanna M. Wallach and
+               Rob Fergus and
+               S. V. N. Vishwanathan and
+               Roman Garnett},
+  title     = {Attention is All you Need},
+  booktitle = {Advances in Neural Information Processing Systems 30: Annual Conference
+               on Neural Information Processing Systems ({NeurIPS} 2017)},
+  address   = {Long Beach, USA},
+  pages     = {5998--6008},
+  publisher = {{ACM}},
+  year      = {2017},
+  url       = {http://papers.nips.cc/paper/7181-attention-is-all-you-need},
+  doi       = {},
+  urldate   = {2020-05-06},
+}
+@inproceedings{ic18/speechtransformer,
+  author    = {Linhao Dong and
+               Shuang Xu and
+               Bo Xu},
+  editor    = {},
+  title     = {Speech-Transformer: {A} No-Recurrence Sequence-to-Sequence Model for Speech Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2018)},
+  address   = {Calgary, Canada},
+  pages     = {5884--5888},
+  publisher = {{IEEE}},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/ICASSP.2018.8462506},
+  doi       = {10.1109/ICASSP.2018.8462506},
+  urldate   = {2019-10-16},
+}
+@inproceedings{icml06/ctc,
+  author    = {Alex Graves and
+               Santiago Fern{\'{a}}ndez and
+               Faustino J. Gomez and
+               J{\"{u}}rgen Schmidhuber},
+  editor    = {William W. Cohen and
+               Andrew W. Moore},
+  title     = {Connectionist temporal classification: labelling unsegmented sequence
+               data with recurrent neural networks},
+  booktitle = {23rd International Conference on Machine Learning (ICML 2006)},
+  address   = {Pittsburgh, USA},
+  pages     = {369--376},
+  publisher = {{ACM}},
+  year      = {2006},
+  url       = {https://doi.org/10.1145/1143844.1143891},
+  doi       = {10.1145/1143844.1143891},
+  urldate   = {2019-11-19},
+}
+@inproceedings{ic19/sanctc,
+  author    = {Julian Salazar and
+               Katrin Kirchhoff and
+               Zhiheng Huang},
+  editor    = {},
+  title     = {Self-attention Networks for Connectionist Temporal Classification in Speech Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2019)},
+  address   = {Brighton, United Kingdom},
+  pages     = {7115--7119},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ICASSP.2019.8682539},
+  doi       = {10.1109/ICASSP.2019.8682539},
+  urldate   = {2019-12-07},
+}
+@inproceedings{is19/wav2vec,
+  author    = {Steffen Schneider and
+               Alexei Baevski and
+               Ronan Collobert and
+               Michael Auli},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {wav2vec: Unsupervised Pre-Training for Speech Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {3465--3469},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-1873},
+  doi       = {10.21437/Interspeech.2019-1873},
+  urldate   = {2020-04-24},
+}
+@inproceedings{iclr20/vqwav2vec,
+  author    = {Alexei Baevski and
+               Steffen Schneider and
+               Michael Auli},
+  editor    = {},
+  title     = {vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations},
+  booktitle = {8th International Conference on Learning Representations (ICLR 2020)},
+  address   = {Addis Ababa, Ethiopia},
+  pages     = {1--12},
+  publisher = {{OpenReview.net}},
+  year      = {2020},
+  url       = {https://openreview.net/forum?id=rylwJxrYDS},
+  doi       = {},
+  urldate   = {2020-05-07},
+}
+@inproceedings{is19/apc,
+  author    = {Yu{-}An Chung and
+               Wei{-}Ning Hsu and
+               Hao Tang and
+               James R. Glass},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {An Unsupervised Autoregressive Model for Speech Representation Learning},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {146--150},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-1473},
+  doi       = {10.21437/Interspeech.2019-1473},
+  urldate   = {2020-04-24},
+}
+@inproceedings{ic20/mockingjay,
+  author    = {Andy T. Liu and
+               Shu{-}Wen Yang and
+               Po{-}Han Chi and
+               Po{-}chun Hsu and
+               Hung{-}yi Lee},
+  editor    = {},
+  title     = {Mockingjay: Unsupervised Speech Representation Learning with Deep
+               Bidirectional Transformer Encoders},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {6419--6423},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9054458},
+  doi       = {10.1109/ICASSP40776.2020.9054458},
+  urldate   = {2020-07-23},
+}
+@inproceedings{is19/emobert,
+  author    = {Zheng Lian and
+               Jianhua Tao and
+               Bin Liu and
+               Jian Huang},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  title     = {Unsupervised Representation Learning with Future Observation Prediction
+               for Speech Emotion Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {3840--3844},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-1582},
+  doi       = {10.21437/Interspeech.2019-1582},
+  urldate   = {2020-04-24},
+}
+@inproceedings{ic20/dcoar,
+  author    = {Shaoshi Ling and
+               Yuzong Liu and
+               Julian Salazar and
+               Katrin Kirchhoff},
+  editor    = {},
+  title     = {Deep Contextualized Acoustic Representations for Semi-Supervised Speech
+               Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {6429--6433},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9053176},
+  doi       = {10.1109/ICASSP40776.2020.9053176},
+  urldate   = {2020-07-23},
+}
+@inproceedings{ic20/speechelmo,
+  author    = {Weiran Wang and
+               Qingming Tang and
+               Karen Livescu},
+  editor    = {},
+  title     = {Unsupervised Pre-Training of Bidirectional Speech Encoders via Masked
+               Reconstruction},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {6889--6893},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9053541},
+  doi       = {10.1109/ICASSP40776.2020.9053541},
+  urldate   = {2020-07-23},
+}
+@article{SPM/rbmdbn,
+  author    = {Geoffrey E. Hinton and 
+               Li Deng and Dong Yu and 
+               George E. Dahl and Abdel-rahman Mohamed and 
+               Navdeep Jaitly and Andrew W. Senior and 
+               Vincent Vanhoucke and Patrick Nguyen and 
+               Tara N. Sainath and Brian Kingsbury},
+  title     = {Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups},
+  journal   = {{IEEE} Signal Process. Mag.},
+  volume    = {29},
+  number    = {6},
+  pages     = {82--97},
+  year      = {2012},
+  url       = {https://doi.org/10.1109/MSP.2012.2205597},
+  doi       = {10.1109/MSP.2012.2205597},
+  urldate   = {2018-11-14},
+}
+@inproceedings{ic19/speechtransformer_kuaishou,
+  author    = {Yuanyuan Zhao and
+               Jie Li and
+               Xiaorui Wang and
+               Yan Li},
+  editor    = {},
+  title     = {The Speechtransformer for Large-scale Mandarin Chinese Speech Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2019)},
+  address   = {Brighton, United Kingdom},
+  pages     = {7095--7099},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ICASSP.2019.8682586},
+  doi       = {10.1109/ICASSP.2019.8682586},
+  urldate   = {2019-12-07},
+}
+@inproceedings{nips15/xlnetloss,
+  author    = {Shaoqing Ren and
+               Kaiming He and
+               Ross B. Girshick and
+               Jian Sun},
+  editor    = {Corinna Cortes and
+               Neil D. Lawrence and
+               Daniel D. Lee and
+               Masashi Sugiyama and
+               Roman Garnett},
+  title     = {Faster {R-CNN:} Towards Real-Time Object Detection with Region Proposal
+               Networks},
+  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference
+               on Neural Information Processing Systems ({NeurIPS} 2015)},
+  address   = {Montreal, Canada},
+  pages     = {91--99},
+  publisher = {{ACM}},
+  year      = {2015},
+  url       = {http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks},
+  doi       = {},
+  urldate   = {2020-05-06},
+}
+@inproceedings{tsd18/timitresult,
+  author    = {Josef Mich{\'{a}}lek and
+               Jan Vanek},
+  editor    = {Petr Sojka and
+               Ales Hor{\'{a}}k and
+               Ivan Kopecek and
+               Karel Pala},
+  title     = {A Survey of Recent {DNN} Architectures on the {TIMIT} Phone Recognition Task},
+  booktitle = {Text, Speech, and Dialogue - 21st International Conference ({TSD} 2018)},
+  address   = {Brno, Czech Republic},
+  pages     = {436--444},
+  publisher = {{Springer}},
+  year      = {2018},
+  url       = {https://doi.org/10.1007/978-3-030-00794-2\_47},
+  doi       = {10.1007/978-3-030-00794-2\_47},
+  urldate   = {2019-05-14},
+}
+@inproceedings{nips18/visualizeloss,
+  author    = {Hao Li and
+               Zheng Xu and
+               Gavin Taylor and
+               Christoph Studer and
+               Tom Goldstein},
+  editor    = {Samy Bengio and
+               Hanna M. Wallach and
+               Hugo Larochelle and
+               Kristen Grauman and
+               Nicol{\`{o}} Cesa{-}Bianchi and
+               Roman Garnett},
+  title     = {Visualizing the Loss Landscape of Neural Nets},
+  booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference
+               on Neural Information Processing Systems ({NeurIPS} 2018)},
+  address   = {Montreal, Canada},
+  pages     = {6391--6401},
+  publisher = {{ACM}},
+  year      = {2018},
+  url       = {http://papers.nips.cc/paper/7875-visualizing-the-loss-landscape-of-neural-nets},
+  doi       = {},
+  urldate   = {2020-05-06},
+}
+@inproceedings{emnlp19/visualizebert,
+  author    = {Yaru Hao and
+               Li Dong and
+               Furu Wei and
+               Ke Xu},
+  editor    = {Kentaro Inui and
+               Jing Jiang and
+               Vincent Ng and
+               Xiaojun Wan},
+  title     = {Visualizing and Understanding the Effectiveness of {BERT}},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural
+               Language Processing and the 9th International Joint Conference on
+               Natural Language Processing ({EMNLP-IJCNLP} 2019)},
+  address   = {Hong Kong, China},
+  pages     = {4141--4150},
+  publisher = {{ACL}},
+  year      = {2019},
+  url       = {https://doi.org/10.18653/v1/D19-1424},
+  doi       = {10.18653/v1/D19-1424},
+  urldate   = {2019-12-12},
+}
