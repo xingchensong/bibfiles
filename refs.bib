@@ -1,8 +1,266 @@
-% tags (for quick search): \pretraining, \speech-xlnet-related, \data_augmentation, \specswap-related, 
+% tags (for quick search): \pretraining, \speech-xlnet-related, \data_augmentation, \specswap-related, \nar-related
 %                          \dataset, \experiment_settings, \streaming, \languagemodel
 
 
+%% tag: \nar-related
+@inproceedings{acl20/study-of-nar,
+  author    = {Yi Ren and
+               Jinglin Liu and
+               Xu Tan and
+               Zhou Zhao and
+               Sheng Zhao and
+               Tie{-}Yan Liu},
+  editor    = {Dan Jurafsky and
+               Joyce Chai and
+               Natalie Schluter and
+               Joel R. Tetreault},
+  title     = {A Study of Non-autoregressive Model for Sequence Generation},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational
+               Linguistics, ({ACL} 2020)},
+  address   = {Online},
+  pages     = {149--159},
+  publisher = {ACL},
+  year      = {2020},
+  url       = {https://www.aclweb.org/anthology/2020.acl-main.15/},
+  urldate   = {2020-09-30},
+  doi       = {}
+}
+@article{arxiv/semi-mask-predict,
+  author    = {Marjan Ghazvininejad and
+               Omer Levy and
+               Luke Zettlemoyer},
+  editor    = {},
+  title     = {Semi-Autoregressive Training Improves Mask-Predict Decoding},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2001.08785},
+  doi       = {},
+  urldate   = {2020-01-30},
+}
+@article{arxiv/imputer,
+  author    = {William Chan and
+               Chitwan Saharia and
+               Geoffrey E. Hinton and
+               Mohammad Norouzi and
+               Navdeep Jaitly},
+  editor    = {},
+  title     = {Imputer: Sequence Modelling via Imputation and Dynamic Programming},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2002.08926},
+  doi       = {},
+  urldate   = {2020-03-03},
+}
+@article{arxiv/laso,
+  author    = {Ye Bai and
+               Jiangyan Yi and
+               Jianhua Tao and
+               Zhengkun Tian and
+               Zhengqi Wen and
+               Shuai Zhang},
+  editor    = {},
+  title     = {Listen Attentively, and Spell Once: Whole Sentence Generation via
+               a Non-Autoregressive Architecture for Low-Latency Speech Recognition},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.04862},
+  doi       = {},
+  urldate   = {2020-05-14},
+}
+@inproceedings{is19/Ectc-Docd,
+  author    = {Cheng Yi and
+               Feng Wang and
+               Bo Xu},
+  editor    = {Gernot Kubin and
+               Zdravko Kacic},
+  title     = {Ectc-Docd: An End-to-End Structure with {CTC} Encoder and {OCD} Decoder
+               for Speech Recognition},
+  booktitle = {20th Annual Conference of the International Speech Communication Association ({Interspeech} 2019)},
+  address   = {Graz, Austria},
+  pages     = {4420--4424},
+  publisher = {{ISCA}},
+  year      = {2019},
+  url       = {https://doi.org/10.21437/Interspeech.2019-1212},
+  doi       = {10.21437/Interspeech.2019-1212},
+  urldate   = {2020-04-24},
+}
+@article{arxiv/maskctc,
+  author    = {Yosuke Higuchi and
+               Shinji Watanabe and
+               Nanxin Chen and
+               Tetsuji Ogawa and
+               Tetsunori Kobayashi},
+  editor    = {},
+  title     = {Mask {CTC:} Non-Autoregressive End-to-End {ASR} with {CTC} and Mask
+               Predict},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.08700},
+  doi       = {},
+  urldate   = {2020-06-30},
+}
+@article{arxiv/spike,
+  author    = {Zhengkun Tian and
+               Jiangyan Yi and
+               Jianhua Tao and
+               Ye Bai and
+               Shuai Zhang and
+               Zhengqi Wen},
+  editor    = {},
+  title     = {Spike-Triggered Non-Autoregressive Transformer for End-to-End Speech
+               Recognition},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.07903},
+  doi       = {},
+  urldate   = {2020-05-22},
+}
+@article{arxiv/maskpredict,
+  author    = {Nanxin Chen and
+               Shinji Watanabe and
+               Jes{\'{u}}s Villalba and
+               Najim Dehak},
+  editor    = {},
+  title     = {Listen and Fill in the Missing Letters: Non-Autoregressive Transformer
+               for Speech Recognition},
+  journal   = {arXiv preprint},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1911.04908},
+  doi       = {},
+  urldate   = {2020-07-01},
+}
+@article{arxiv/insertion,
+  author    = {Yuya Fujita and
+               Shinji Watanabe and
+               Motoi Omachi and
+               Xuankai Chang},
+  editor    = {},
+  title     = {Insertion-Based Modeling for End-to-End Automatic Speech Recognition},
+  journal   = {arXiv preprint},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.13211},
+  doi       = {},
+  urldate   = {2020-06-30},
+}
+@article{arxiv/hardenc_easydec,
+  author    = {Tianyu He and
+               Xu Tan and
+               Tao Qin},
+  editor    = {},
+  title     = {Hard but Robust, Easy but Sensitive: How Encoder and Decoder Perform in Neural Machine Translation},
+  journal   = {arXiv preprint},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1908.06259},
+  doi       = {},
+  urldate   = {2019-08-26},
+}
+@inproceedings{ic16/LAS,
+  author    = {William Chan and
+               Navdeep Jaitly and
+               Quoc V. Le and
+               Oriol Vinyals},
+  editor    = {},
+  title     = {Listen, attend and spell: {A} neural network for large vocabulary
+               conversational speech recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal
+               Processing, ({ICASSP} 2016)},
+  address   = {Shanghai, China},
+  pages     = {4960--4964},
+  publisher = {{IEEE}},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/ICASSP.2016.7472621},
+  doi       = {10.1109/ICASSP.2016.7472621},
+  urldate   = {2019-10-16},
+}
+@article{arxiv/wav2letter,
+  author    = {Ronan Collobert and
+               Christian Puhrsch and
+               Gabriel Synnaeve},
+  editor    = {},
+  title     = {Wav2Letter: an End-to-End ConvNet-based Speech Recognition System},
+  journal   = {arXiv preprint},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1609.03193},
+  doi       = {},
+  urldate   = {2018-08-13},
+}
+@inproceedings{asru19/compare_rnn_transformer,
+  author    = {Shigeki Karita and
+               Xiaofei Wang and
+               Shinji Watanabe and
+               Takenori Yoshimura and
+               Wangyou Zhang and
+               Nanxin Chen and
+               Tomoki Hayashi and
+               Takaaki Hori and
+               Hirofumi Inaguma and
+               Ziyan Jiang and
+               Masao Someki and
+               Nelson Enrique Yalta Soplin and
+               Ryuichi Yamamoto},
+  editor    = {},
+  title     = {A Comparative Study on Transformer vs RNN in Speech Applications},
+  booktitle = {IEEE 2019 Workshop on Automatic Speech Recognition and Understanding ({ASRU} 2019)},
+  address   = {Singapore},
+  pages     = {449-456},
+  publisher = {{IEEE Signal Processing Society}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ASRU46091.2019.9003750},
+  doi       = {10.1109/ASRU46091.2019.9003750},
+  urldate   = {2020-09-17},
+}
+@inproceedings{emnlp19/mask-predict,
+  author    = {Marjan Ghazvininejad and
+               Omer Levy and
+               Yinhan Liu and
+               Luke Zettlemoyer},
+  editor    = {Kentaro Inui and
+               Jing Jiang and
+               Vincent Ng and
+               Xiaojun Wan},
+  title     = {Mask-Predict: Parallel Decoding of Conditional Masked Language Models},
+  booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing ({EMNLP-IJCNLP} 2019)},
+  address   = {Hong Kong, China},
+  pages     = {6111-6120},
+  publisher = {{ACL}},
+  year      = {2019},
+  url       = {https://doi.org/10.18653/v1/D19-1633},
+  doi       = {10.18653/v1/D19-1633},
+  urldate   = {2019-12-12},
+}
+
 %% tag: \data_augmentation, \specswap-related
+@article{arxiv/whole-context,
+  author    = {Ye Bai and
+               Jiangyan Yi and
+               Jianhua Tao and
+               Zhengkun Tian and
+               Zhengqi Wen and
+               Shuai Zhang},
+  editor    = {},
+  title     = {Integrating Whole Context to Sequence-to-sequence Speech Recognition},
+  journal   = {arXiv preprint},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1912.01777},
+  doi       = {},
+  urldate   = {2020-01-07},
+}
+@article{taslp/Adversarial-egularization,
+  author    = {Sining Sun and
+               Pengcheng Guo and
+               Lei Xie and
+               Mei{-}Yuh Hwang},
+  title     = {Adversarial Regularization for Attention Based End-to-End Robust Speech
+               Recognition},
+  journal   = {{IEEE} {ACM} Trans. Audio Speech Lang. Process.},
+  volume    = {27},
+  number    = {11},
+  pages     = {1826--1838},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/TASLP.2019.2933146},
+  doi       = {10.1109/TASLP.2019.2933146},
+  urldate   = {2020-05-13},
+}
 @inproceedings{is16/deep_cnn,
   author    = {Tom Sercu and
                Vaibhava Goel},
@@ -271,6 +529,30 @@
 
 
 %% tag: \experiment_settings
+@inproceedings{is18/espnet,
+  author    = {Shinji Watanabe and
+               Takaaki Hori and
+               Shigeki Karita and
+               Tomoki Hayashi and
+               Jiro Nishitoba and
+               Yuya Unno and
+               Nelson Enrique Yalta Soplin and
+               Jahn Heymann and
+               Matthew Wiesner and
+               Nanxin Chen and
+               Adithya Renduchintala and
+               Tsubasa Ochiai},
+  editor    = {B. Yegnanarayana},
+  title     = {ESPnet: End-to-End Speech Processing Toolkit},
+  booktitle = {19th Annual Conference of the International Speech Communication Association ({Interspeech} 2018)},
+  address   = {Hyderabad, India},
+  pages     = {2207--2211},
+  publisher = {{ISCA}},
+  year      = {2018},
+  url       = {https://doi.org/10.21437/Interspeech.2018-1456},
+  doi       = {10.21437/Interspeech.2018-1456},
+  urldate   = {2020-06-26},
+}
 @article{arxiv/dropout,
   author    = {Geoffrey E. Hinton and
                Nitish Srivastava and
@@ -449,6 +731,20 @@
   year      = {2020},
   url       = {https://doi.org/10.1109/ICASSP40776.2020.9054260},
   doi       = {10.1109/ICASSP40776.2020.9054260},
+  urldate   = {2020-07-23},
+}
+@inproceedings{ic20/cif,
+  author    = {Linhao Dong and
+               Bo Xu},
+  editor    = {},
+  title     = {{CIF:} Continuous Integrate-And-Fire for End-To-End Speech Recognition},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP} 2020)},
+  address   = {Barcelona, Spain},
+  pages     = {6079--6083},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ICASSP40776.2020.9054250},
+  doi       = {10.1109/ICASSP40776.2020.9054250},
   urldate   = {2020-07-23},
 }
 
